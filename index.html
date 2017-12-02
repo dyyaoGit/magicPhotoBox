@@ -13,10 +13,22 @@
         ul {
             list-style: none;
         }
+        body {
+            background: skyblue;
+        }
+        
     </style>
+    <!--为了减少一个HTTP请求数，可以将有限的css加载到js中-->
+    <!-- <link rel="stylesheet" href="./static/css/main.css"> -->
+
 </head>
 <body>
-    <div id="photoBox"></div>
+    <div id="J_photoBox"></div>
 </body>
-<script src=""></script>
+<script src="./static/js/photoBox.min.js"></script>
+<script>
+    var arr = ['./static/imgs/4_06.jpg', './static/imgs/4_06.jpg', './static/imgs/4_06.jpg']
+    var arr2 = ['./static/imgs/4_06.jpg', './static/imgs/4_06.jpg', './static/imgs/4_06.jpg', './static/imgs/4_06.jpg']
+    new photoBox(arr2, 'J_photoBox')
+</script>
 </html>
