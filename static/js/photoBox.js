@@ -1,4 +1,4 @@
-function photoBox(arr, id) {
+function PhotoBox(arr, id) {
     var style = document.getElementsByTagName('style')[0].innerHTML;
     var containerStyle = '#' + id + '{width:1050px;background: #fff;box-sizing: border-box;padding: 20px;overflow: hidden;}' + '#' + id + ' ' + 'div' + '{float: left;}'
     this.style += containerStyle;
