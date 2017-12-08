@@ -17,7 +17,7 @@ This is a style plugin, you can use it to use many style went your photo number 
 <script>
     var arr = ['./static/imgs/4_06.jpg', './static/imgs/4_06.jpg', './static/imgs/4_06.jpg']
     var arr2 = ['./static/imgs/4_06.jpg', './static/imgs/4_06.jpg', './static/imgs/4_06.jpg', './static/imgs/4_06.jpg']
-    new photoBox(arr2, 'J_photoBox')
+    new PhotoBox(arr2, 'J_photoBox')
 </script>
 ```
 
